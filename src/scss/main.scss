@@ -1,10 +1,4 @@
-@font-face {
-  font-family: "Silkscreen";
-  src: url("../font/silkscreen/slkscr.ttf") format("ttf"),
-}
-
 $image : url(../images/menu.png);
-
 
 
 h1{
@@ -147,7 +141,7 @@ canvas{
 .character__div{
   position: relative;
   margin: 0 auto;
-  background-image: url(../images/characterSheet.svg);
+  background-image: url(../images/characterSheet.png);
   background-size: 100%;
   width: 800px;
   height: 917px;
@@ -163,7 +157,7 @@ canvas{
 .skills__div{
   position: relative;
   margin: 0 auto;
-  background-image: url(../images/skillsSheet.svg);
+  background-image: url(../images/skillsSheet.png);
   width: 800px;
   height: 917px;
 }
@@ -178,7 +172,7 @@ canvas{
 .contact__div{
   position: relative;
   margin: 0 auto;
-  background-image: url(../images/contactSheet.svg);
+  background-image: url(../images/contactSheet.png);
   background-size: 100%;
   width: 800px;
   height: 801px;
