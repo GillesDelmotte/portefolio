@@ -94,8 +94,8 @@ document.querySelector('body').addEventListener('click', (e) => {
 const game = {
     'sprite': new Image,
     'sprite2': new Image,
-    'spriteSheetSrc': '../public/assets/images/spriteGame.png',
-    'spriteSheetSrc2': '../public/assets/images/spriteMap.png',
+    'spriteSheetSrc': './assets/images/spriteGame.png',
+    'spriteSheetSrc2': './assets/images/spriteMap.png',
     'canvas': document.querySelector('canvas'),
     'c': null,
     'gameController': gameController,
